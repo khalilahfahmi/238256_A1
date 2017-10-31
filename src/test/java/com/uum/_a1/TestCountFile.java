@@ -1,4 +1,3 @@
-
 /* 
  * Semester: A171
  * Course: STIW3054
@@ -19,7 +18,7 @@ public class TestCountFile {
     private static ArrayList<String> fileName = new ArrayList();
     private int total = 0;
 
-    public TestCountFile(ArrayList<String> fn) {
+    public CountFile(ArrayList<String> fn) {
         fileName = fn;
 
     }

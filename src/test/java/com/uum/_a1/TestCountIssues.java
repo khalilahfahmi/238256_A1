@@ -20,9 +20,8 @@ public class TestCountIssues {
     private static int noIssue = 0;
     private static String directory;
     private static ArrayList<String> fileName = new ArrayList();
-    
-
-    public TestCountIssues(String dir, ArrayList<String> fn) {
+@Test
+    public CountIssues(String dir, ArrayList<String> fn) {
         directory = dir;
         fileName = fn;
     }
@@ -49,4 +48,3 @@ public class TestCountIssues {
     }
 
 }
-

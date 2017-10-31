@@ -1,3 +1,5 @@
+
+
 /* 
  * Semester: A171
  * Course: STIW3054
@@ -17,7 +19,8 @@ public class TestFileName {
     public static ArrayList<String> fileName = new ArrayList();
     public static File folder;
 
-    public TestFileName(final File folder) {
+@Test
+    public void FileName(final File folder) {
         FileName.folder = folder;
     }
 @Test
@@ -36,4 +39,5 @@ public class TestFileName {
     }
 
 }
+
 

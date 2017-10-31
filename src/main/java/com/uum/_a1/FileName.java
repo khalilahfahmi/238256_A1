@@ -16,7 +16,7 @@ public class FileName {
     public static ArrayList<String> fileName = new ArrayList();
     public static File folder;
 
-    public FileName(final File folder) {
+    public void FileName(final File folder) {
         FileName.folder = folder;
     }
 
